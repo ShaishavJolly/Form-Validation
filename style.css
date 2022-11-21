@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: lightcyan;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    margin-top: 150px;
+    margin-left: 300px;
+}
+#myform label{
+    margin: 20px;
+    font-size: 20px;
+    color: black;
+}
+.formdesign{
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+#submit{
+    width: 80px;
+    height: 40px;
+    margin: 20px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.formerror{
+    color: red;
+}

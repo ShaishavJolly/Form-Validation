@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Validation- By Shaishav Jolly Saxena</h1>
+        <form action="/welcome.html"  id="myform" name="myform" onsubmit="return validation()">
+            <label for="full_name">Name</label>
+            <input type="text" class="formdesign" id="full_name" name="full_name" placeholder="Enter Full name" required><b><span class="formerror" id="name_error"></span></b><br>
+            
+            <label for="email">Email</label>
+            <input type="text" class="formdesign" id="email" name="email" placeholder="name@example.com" required><b><span class="formerror" id="email_error"></span></b><br>
+            
+            <label for="phone_number">Phone</label>
+            <input type="tel" class="formdesign" id="phone_number" name="phone_number" placeholder="eg. 9845781456" required><b><span class="formerror" id="phone_error"></span></b><br>
+            
+            <label for="password">Password</label>
+            <input type="password" class="formdesign" id="password" name="password"><b><span class="formerror" id="password_error" required></span></b><br>
+            
+            <label for="confirm_password">Confirm password</label>
+            <input type="password" class="formdesign" id="confirm_password" name="confirm_password" required><b><span class="formerror" id="cpassword_error"></span></b><br>
+            
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
